@@ -30,7 +30,7 @@ nav a:hover {
 }
 
 .hero {
-  background: linear-gradient(135deg, #000000, #ffe5ec); /* pink gradient */
+  background: linear-gradient(135deg, #000000, #4f4c4d); /* pink gradient */
   padding: 80px 20px;
   text-align: center;
 }
@@ -38,18 +38,18 @@ nav a:hover {
 .hero h1 {
   margin: 0;
   font-size: 48px;
-  color: #ec619e;
+  color: #aa3065;
 }
 
 .hero p {
   font-size: 20px;
-  color: #ec619e;
+  color: #aa3065;
 }
 
 section {
   padding: 60px 20px;
   text-align: center;
-  background-color: #333;
+  background-color: #ffffff;
 }
 
 section h2 {
