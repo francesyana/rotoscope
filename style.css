@@ -39,7 +39,8 @@ nav a:hover {
   margin: 0;
   font-size: 55px;
   color: #aa3065;
-  word-spacing: 40px; /* adds space between words */
+  word-spacing: 50px; /* adds space between words */
+  letter-spacing: 12px
 }
 
 .hero p {
