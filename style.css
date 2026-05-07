@@ -97,19 +97,43 @@ footer {
   text-align: left;
 }
 
-.planet-video video {
+.planet-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  margin: 40px auto;
+  max-width: 900px;
+  padding: 20px;
+  background: #fdf6f9; /* pastel pink background */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.planet-video iframe {
   border: 4px solid #fcd5ce;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
+.planet-text {
+  flex: 1;
+  text-align: left;
+}
+
+.planet-text h2 {
+  margin-top: 0;
+  color: #d6336c; /* darker pastel pink for headings */
+}
+
 /* Responsive layout for mobile */
 @media (max-width: 768px) {
-  .about-section {
+  .planet-section {
     flex-direction: column;
     text-align: center;
   }
-  .about-text {
+  .planet-text {
     text-align: center;
   }
 }
+
