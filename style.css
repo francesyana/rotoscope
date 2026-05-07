@@ -58,6 +58,14 @@ section h2 {
   margin-bottom: 20px;
   color: #ec619e; /* pastel pink */
 }
+.about-img {
+  width: 250px;          
+  height: 250px;         /* set equal height to make it square */
+  object-fit: cover;     /* crop/fit the image neatly */
+  border-radius: 50%;    /* makes it a perfect circle */
+  border: 4px solid #fcd5ce; /* pastel pink border */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
 
 /* Video card styling */
 iframe {
