@@ -99,31 +99,37 @@ footer {
 
 .planet-section {
   display: flex;
-  align-items: center;
+  align-items: flex-start;   /* align items at the top */
   justify-content: space-between;
   gap: 30px;
   margin: 40px auto;
-  max-width: 900px;
+  max-width: 1000px;
   padding: 20px;
   background: #fdf6f9; /* pastel pink background */
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
+.planet-video {
+  flex: 1;                  /* video takes half the space */
+}
+
 .planet-video iframe {
+  width: 100%;              /* make iframe responsive */
+  height: 315px;            /* standard YouTube embed height */
   border: 4px solid #fcd5ce;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 .planet-text {
-  flex: 1;
+  flex: 1;                  /* text takes the other half */
   text-align: left;
 }
 
 .planet-text h2 {
   margin-top: 0;
-  color: #d6336c; /* darker pastel pink for headings */
+  color: #d6336c;
 }
 
 /* Responsive layout for mobile */
