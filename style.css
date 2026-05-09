@@ -49,6 +49,12 @@ nav a:hover {
   font-size: 20px;
   color: #ec619e;
 }
+.solar {
+  margin-right: 40px; /* custom gap */
+}
+.system {
+  color: #d6336c; /* different shade for contrast */
+}
 
 section {
   padding: 60px 20px;
