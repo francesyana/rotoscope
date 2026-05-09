@@ -30,9 +30,11 @@ nav a:hover {
 }
 
 .hero {
-  background: linear-gradient(135deg, #242323, #000000); /* pink gradient */
+  background: url("images/starss.jpg") no-repeat center center;
+  background-size: cover;   /* makes the image fill the header */
   padding: 80px 20px;
   text-align: center;
+  color: white;             /* ensures text is readable on dark background */
 }
 
 .hero h1 {
