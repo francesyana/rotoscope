@@ -72,7 +72,8 @@ nav a:hover {
 section {
   padding: 60px 20px;
   text-align: center;
-  background-color: #000000;
+  background: url("images/starss.jpg") no-repeat center center;
+  background-size: cover;
 }
 
 section h2 {
@@ -156,7 +157,7 @@ section h2 {
 
 /* Footer */
 footer {
-  background: #fcd5ce;
+  background: #e16591;
   padding: 15px;
   text-align: center;
   color: #333;
