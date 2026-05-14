@@ -1,7 +1,7 @@
 body {
   font-family: 'Orbitron', sans-serif;
   margin: 0;
-  background: #000000; 
+  background: url("images/starss.jpg") no-repeat center center;
   color: #333;
 }
 
@@ -89,7 +89,7 @@ section {
 
 section h2 {
   margin-bottom: 20px;
-  color: #ec619e;
+  color: #761aa0;
 }
 
 /* About Section */
