@@ -28,7 +28,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #e16591;
+  color: #bb8cd1;
   text-shadow: 0 0 8px #ff99c8;
 }
 
@@ -157,7 +157,7 @@ section h2 {
 
 /* Footer */
 footer {
-  background: #e16591;
+  background: #8c6ac1;
   padding: 15px;
   text-align: center;
   color: #333;
