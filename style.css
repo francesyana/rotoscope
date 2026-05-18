@@ -46,11 +46,10 @@ nav .brand {
 /* Hero Section */
 .hero {
   position: relative;
-  background: url("images/starss.jpg") no-repeat center center;
+  background: url("images/starss.jpg");
   background-size: cover;
   padding: 120px 20px;
   text-align: center;
-  color: white;
 }
 
 .hero::before {
