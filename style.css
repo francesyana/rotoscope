@@ -82,7 +82,7 @@ nav .brand {
 section {
   padding: 60px 20px;
   text-align: center;
-  background: url("images/starss.jpg") no-repeat center center;
+  background: url("images/starss.jpg");
   background-size: cover;
 }
 
