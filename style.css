@@ -45,6 +45,7 @@ nav .brand {
 
 /* Hero Section */
 .hero {
+  font-family: 'Orbitron', sans-serif;
   position: relative;
   background: url("images/starss.jpg");
   background-size: cover;
@@ -74,7 +75,7 @@ nav .brand {
 
 .hero p {
   font-size: 20px;
-  color: #ffd6e7;
+  color: #ffffff;
   letter-spacing: 4px;
 }
 
@@ -89,6 +90,10 @@ section {
 section h2 {
   margin-bottom: 20px;
   color: #761aa0;
+}
+.intro-section h2 {
+  color: #ffffff; /* pastel pink */
+  font-size: 28px;
 }
 
 /* About Section */
