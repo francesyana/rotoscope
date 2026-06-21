@@ -337,3 +337,27 @@ footer {
   object-fit: contain;
   margin-bottom: 10px;
 }
+
+.credits {
+  background: #111;
+  color: #fcd5ce;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.credits h2 {
+  color: #bb8cd1;
+  margin-bottom: 15px;
+}
+
+.credits a {
+  color: #bb8cd1;
+  text-decoration: none;
+}
+
+.credits a:hover {
+  text-decoration: underline;
+}
