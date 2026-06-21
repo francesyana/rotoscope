@@ -62,7 +62,8 @@ nav .brand {
 }
 
 .hero h1, .hero p {
-  position: relative; /* ensures text sits above overlay */
+  position: relative;
+  padding: 60px 20px;
 }
 
 .hero h1 {
@@ -381,10 +382,4 @@ footer {
 
 .credits a:hover {
   text-decoration: underline;
-}
-
-.rotoscoping-text p {
-  margin: 8px 0;
-  padding: 6px 0;
-  border-bottom: 1px solid rgba(255,255,255,0.2);
 }
