@@ -160,15 +160,20 @@ section h2 {
 }
 
 .planet-text h2 {
-  margin-top: 0;
-  font-size: 28px;
-  color: #ffffff;
+  color: #bb8cd1;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #bb8cd1; /* line under planet name */
+  padding-bottom: 8px;
 }
 
 .planet-text p {
-  font-size: 18px;
-  line-height: 1.6;
-  color: #a6a5a5;
+  margin: 8px 0;
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.2); /* subtle divider line */
+}
+
+.planet-text p:last-child {
+  border-bottom: none; /* remove line after last item */
 }
 
 /* Footer */
