@@ -20,6 +20,21 @@
     <p>Exploring planets and motion design</p>
   </header>
 
+  <!-- Planet Age Calculator -->
+<section class="calculator-section">
+  <h2>Planet Age Calculator</h2>
+  <p>Enter your age in Earth years:</p>
+  <input type="number" id="earthAge" placeholder="e.g. 20">
+  <button onclick="calculateAge()">Calculate</button>
+
+  <div id="results"></div>
+</section>
+
+<header class="hero">
+  <h1><span class="solar">3D</span> <span class="system">MODELING</span></h1>
+  <p>Celestial bodies</p>
+</header>
+
   <header class="hero">
     <h1><span class="solar">3D</span> <span class="system">MODELING</span></h1>
     <p>Celestial bodies</p>
@@ -201,5 +216,36 @@
   <footer>
     <p>© 2026 Frances. All rights reserved.</p>
   </footer>
+  
+  <script>
+    function calculateAge() {
+      const earthAge = parseFloat(document.getElementById("earthAge").value);
+      if (isNaN(earthAge) || earthAge <= 0) {
+        document.getElementById("results").innerHTML = "Please enter a valid age.";
+        return;
+      }
+
+      const planets = {
+        Mercury: 0.24,
+        Venus: 0.62,
+        Earth: 1.00,
+        Mars: 1.88,
+        Jupiter: 11.86,
+        Saturn: 29.46,
+        Uranus: 84.01,
+        Neptune: 164.8
+      };
+
+      let output = "<table><tr><th>Planet</th><th>Age (years)</th></tr>";
+      for (const planet in planets) {
+        const age = (earthAge / planets[planet]).toFixed(2);
+        output += `<tr><td>${planet}</td><td>${age}</td></tr>`;
+      }
+      output += "</table>";
+
+      document.getElementById("results").innerHTML = output;
+    }
+  </script>
+
 </body>
 </html>

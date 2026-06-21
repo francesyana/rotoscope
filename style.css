@@ -220,3 +220,42 @@ footer {
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
+
+.calculator-section {
+  background: #111;
+  color: #fcd5ce;
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: 40px auto;
+  text-align: center;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+}
+
+.calculator-section input, .calculator-section button {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+.calculator-section button {
+  background: #761aa0;
+  color: #fff;
+  cursor: pointer;
+}
+
+.calculator-section button:hover {
+  background: #bb8cd1;
+}
+
+.calculator-section table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.calculator-section th, .calculator-section td {
+  border: 1px solid #fcd5ce;
+  padding: 8px;
+}
