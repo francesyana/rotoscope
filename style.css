@@ -162,7 +162,7 @@ section h2 {
 .planet-text h2 {
   margin-top: 0;
   font-size: 28px;
-  color: #fcd5ce;
+  color: #ffffff;
 }
 
 .planet-text p {
@@ -229,7 +229,7 @@ footer {
 
 .calculator-section {
   background: #111;
-  color: #fcd5ce;
+  color: #ffffff;
   padding: 40px;
   border-radius: 12px;
   max-width: 1000px;
@@ -308,7 +308,7 @@ footer {
 
 .apps-used {
   background: #111;
-  color: #fcd5ce;
+  color: #ffffff;
   padding: 40px;
   border-radius: 12px;
   max-width: 1000px;
