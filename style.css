@@ -290,3 +290,14 @@ footer {
   justify-content: center;
   font-size: 24px;
 }
+
+.final-video{
+  width: 100%;          /* fills container */
+  max-width: 1000px;    /* limit size */
+  height: 562px;        /* keeps 16:9 ratio */
+  border: 4px solid #fcd5ce;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  margin: 20px auto;
+  display: block;
+}
