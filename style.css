@@ -202,6 +202,11 @@ footer {
   background-position: center;
   padding: 60px 20px;
   border-radius: 12px;
+
+  display: flex;              /* enables row layout */
+  justify-content: center;    /* centers the cards */
+  gap: 30px;                  /* spacing between cards */
+  flex-wrap: wrap;            /* allows wrapping on smaller screens */
 }
 
 .progress-card {
