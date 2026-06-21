@@ -278,7 +278,19 @@ footer {
 
 .planet-card h3 {
   color: #bb8cd1;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #bb8cd1; /* divider under planet name */
+  padding-bottom: 8px;
+}
+
+.planet-card p {
+  margin: 8px 0;
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.2); /* subtle divider line */
+}
+
+.planet-card p:last-child {
+  border-bottom: none; /* remove line after last item */
 }
 
 /* Optional planet icon placeholder */
