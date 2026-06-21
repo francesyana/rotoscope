@@ -307,20 +307,33 @@ footer {
   color: #fcd5ce;
   padding: 40px;
   border-radius: 12px;
-  max-width: 900px;
+  max-width: 1000px;
   margin: 40px auto;
+  text-align: center;
+}
+
+.apps-row {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap; /* allows wrapping on smaller screens */
+  margin-top: 30px;
 }
 
 .app-card {
-  margin-bottom: 20px;
+  flex: 1;
+  min-width: 250px;
+  max-width: 300px;
   padding: 20px;
   border: 2px solid #bb8cd1;
   border-radius: 10px;
   background: rgba(255,255,255,0.05);
+  text-align: center;
 }
 
 .app-logo {
   width: 60px;
   height: 60px;
   object-fit: contain;
+  margin-bottom: 10px;
 }
