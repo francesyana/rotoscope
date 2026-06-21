@@ -20,15 +20,56 @@
     <p>Exploring planets and motion design</p>
   </header>
 
-  <!-- Planet Age Calculator -->
   <section class="calculator-section">
     <h2>Planet Age Calculator</h2>
     <p>Enter your age in Earth years:</p>
     <input type="number" id="earthAge" placeholder="e.g. 20">
     <button onclick="calculateAge()">Calculate</button>
 
-    <div id="results"></div>
+    <!-- Results container (hidden at first) -->
+    <div id="results" style="display:none;"></div>
   </section>
+
+  <script>
+    function calculateAge() {
+      const earthAge = parseFloat(document.getElementById("earthAge").value);
+      if (isNaN(earthAge) || earthAge <= 0) {
+        alert("Please enter a valid age.");
+        return;
+      }
+
+      const planets = {
+        Mercury: { period: 0.24, days: 88, distance: "57,900,000" },
+        Venus:   { period: 0.62, days: 224.7, distance: "108,200,000" },
+        Earth:   { period: 1.00, days: 365.25, distance: "149,600,000" },
+        Mars:    { period: 1.88, days: 687, distance: "227,900,000" },
+        Jupiter: { period: 11.86, days: 4333, distance: "778,600,000" },
+        Saturn:  { period: 29.46, days: 10759, distance: "1,433,500,000" },
+        Uranus:  { period: 84.01, days: 30688, distance: "2,872,500,000" },
+        Neptune: { period: 164.8, days: 60182, distance: "4,495,100,000" },
+        Pluto:   { period: 248.0, days: 90560, distance: "5,906,400,000" }
+      };
+
+      let output = "<div class='planet-grid'>";
+      for (const planet in planets) {
+        const age = (earthAge / planets[planet].period).toFixed(2);
+        output += `
+          <div class="planet-card">
+            <h3>${planet}</h3>
+            <p><strong>Calculated Age:</strong> ${age} years</p>
+            <p><strong>Orbital Period:</strong> ${planets[planet].days} days</p>
+            <p><strong>Avg. Distance:</strong> ${planets[planet].distance} km</p>
+          </div>
+        `;
+      }
+      output += "</div>";
+
+      // Show results
+      const resultsDiv = document.getElementById("results");
+      resultsDiv.style.display = "block";
+      resultsDiv.innerHTML = output;
+    }
+  </script>
 
   <header class="hero">
     <h1><span class="solar">3D</span> <span class="system">MODELING</span></h1>

@@ -238,7 +238,8 @@ footer {
   box-shadow: 0 6px 16px rgba(0,0,0,0.3);
 }
 
-.calculator-section input, .calculator-section button {
+.calculator-section input,
+.calculator-section button {
   padding: 10px;
   margin: 10px;
   border-radius: 8px;
@@ -255,7 +256,8 @@ footer {
   background: #bb8cd1;
 }
 
-.planet-cards {
+/* Results grid */
+.planet-grid {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -263,11 +265,12 @@ footer {
   margin-top: 30px;
 }
 
+/* Individual planet card */
 .planet-card {
   background: #222;
-  border: 2px solid #ffffff;
+  border: 2px solid #bb8cd1;
   border-radius: 16px;
-  width: 200px;
+  width: 220px;
   padding: 20px;
   text-align: center;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
@@ -278,6 +281,7 @@ footer {
   margin-bottom: 10px;
 }
 
+/* Optional planet icon placeholder */
 .planet-icon {
   width: 60px;
   height: 60px;
