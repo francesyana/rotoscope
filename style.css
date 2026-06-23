@@ -385,3 +385,14 @@ footer {
 .credits a:hover {
   text-decoration: underline;
 }
+
+.credits ul {
+  list-style: none;   /* removes default bullets */
+  padding: 0;         /* removes left indentation */
+  margin: 0;          /* keeps it centered */
+}
+
+.credits li {
+  margin: 8px 0;      /* spacing between items */
+}
+
