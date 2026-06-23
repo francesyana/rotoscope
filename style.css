@@ -77,7 +77,10 @@ nav .brand {
 .hero p {
   font-size: 20px;
   color: #ffffff;
-  letter-spacing: 4px;
+  letter-spacing: 2px;   /* reduced spacing for readability */
+  max-width: 800px;      /* limit width so text doesn’t span full screen */
+  margin: 0 auto;        /* center the block */
+  line-height: 1.6;      /* add breathing space between lines */
 }
 
 /* Sections */
