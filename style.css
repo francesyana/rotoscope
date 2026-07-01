@@ -284,13 +284,12 @@ footer {
   color: #bb8cd1;
 }
 
-.gdrive-icon {
-  width: 54px;
-  height: 54px;
+.gdrive-logo {
+  width: 80px;
+  height: auto;
   flex-shrink: 0;
-  background: linear-gradient(135deg, #0f9d58 34%, #f4b400 34%, #f4b400 67%, #4285f4 67%);
-  clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
-  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
 }
 
 .gdrive-url {
@@ -298,8 +297,7 @@ footer {
   font-size: 14px;
   color: #cccccc;
   margin-top: 4px;
-}
-
+  text-decoration: underline;
 }
 
 .calculator-section button:hover {
