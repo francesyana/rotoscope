@@ -100,6 +100,53 @@ section h2 {
   font-size: 28px;
 }
 
+.home-actions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 0 20px 40px;
+}
+
+.home-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 24px;
+  padding: 32px;
+  text-align: left;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+}
+
+.home-card h2 {
+  margin-top: 0;
+  margin-bottom: 18px;
+  color: #f8eefc;
+  letter-spacing: 1px;
+}
+
+.home-card p {
+  line-height: 1.8;
+  color: #dcd8e8;
+  margin-bottom: 24px;
+}
+
+.home-button {
+  display: inline-block;
+  background: linear-gradient(135deg, #8c6ac1, #bb8cd1);
+  color: #fff;
+  padding: 14px 28px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 700;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.home-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 30px rgba(136, 87, 214, 0.3);
+}
+
 /* About Section */
 .about-section {
   display: flex;
