@@ -172,6 +172,15 @@ section h2 {
   padding: 40px;
 }
 
+.about-card {
+  background: rgba(17, 17, 17, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 24px;
+  padding: 36px;
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.35);
+  max-width: 660px;
+}
+
 .about-img {
   width: 250px;          
   height: 250px;
@@ -186,6 +195,16 @@ section h2 {
   font-size: 18px;
   color: #ddd;
   text-align: left;
+}
+
+.about-text h1 {
+  margin-top: 0;
+  color: #ffffff;
+}
+
+.about-text h2 {
+  color: #bb8cd1;
+  margin-bottom: 20px;
 }
 
 /* Planet Sections */
