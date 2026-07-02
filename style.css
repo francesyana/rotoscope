@@ -449,6 +449,57 @@ footer {
   display: block;
 }
 
+.tutorial-section {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 40px 20px;
+  background: rgba(17, 17, 17, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 20px;
+}
+
+.tutorial-top {
+  max-width: 800px;
+  margin: 0 auto 30px;
+  text-align: center;
+}
+
+.tutorial-top h2 {
+  color: #bb8cd1;
+  margin-bottom: 12px;
+}
+
+.tutorial-top p {
+  color: #dcd8e8;
+  line-height: 1.7;
+}
+
+.tutorial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+}
+
+.tutorial-card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 18px;
+  padding: 28px;
+  text-align: left;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+.tutorial-card h3 {
+  margin-top: 0;
+  color: #f8eefc;
+  margin-bottom: 16px;
+}
+
+.tutorial-card p {
+  color: #dcd8e8;
+  line-height: 1.8;
+}
+
 .apps-used {
   background: #111;
   color: #ffffff;
