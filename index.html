@@ -28,7 +28,7 @@
 
   <section class="calculator-section">
     <h2>Planet Age Calculator</h2>
-    <p>Enter your age in Earth years:</p>
+    <p>Enter your age:</p>
     <input type="number" id="earthAge" placeholder="e.g. 20">
     <button onclick="calculateAge()">Calculate</button>
 
@@ -93,8 +93,10 @@
       Mercury is the smallest planet in our Solar System and closest to the Sun. 
       It has a rocky surface and extreme temperature changes.
     </p>
+    <p><strong>Your age on Mercury:</strong> <span id="mercuryAge">--</span> years</p>
     <p><strong>Orbital Period:</strong> 88 days</p>
-    <p><strong>Distance from Sun:</strong> 57,900,000 km</p>      <p><strong>Your age on Mercury:</strong> <span id="mercuryAge">--</span> years</p>    <p><strong>Number of moons:</strong> 0</p>
+    <p><strong>Distance from Sun:</strong> 57,900,000 km</p>
+    <p><strong>Number of moons:</strong> 0</p>
     <p><strong>Diameter:</strong> 4,879 km</p>
   </div>
 </section>
@@ -106,9 +108,9 @@
     Venus is the second planet from the Sun and is often called Earth's "sister planet" due to their similar size and mass. 
     It has a thick, toxic atmosphere and is the hottest planet in our Solar System.
   </p>
+    <p><strong>Your age on Venus:</strong> <span id="venusAge">--</span> years</p>
     <p><strong>Orbital Period:</strong> 224.7 days</p>
     <p><strong>Distance from Sun:</strong> 108,200,000 km</p>
-    <p><strong>Your age on Venus:</strong> <span id="venusAge">--</span> years</p>
     <p><strong>Number of moons:</strong> 0</p>
     <p><strong>Diameter:</strong> 12,104 km</p>
   </div>
@@ -138,9 +140,9 @@
       Earth is the third planet from the Sun and the only known planet to support life. 
       It has a diverse climate and a protective atmosphere that allows for a wide range of ecosystems.
     </p>
+    <p><strong>Your age on Earth:</strong> <span id="earthAgeResult">--</span> years</p>
     <p><strong>Orbital Period:</strong> 365.25 days</p>
     <p><strong>Distance from Sun:</strong> 149,600,000 km</p>
-    <p><strong>Your age on Earth:</strong> <span id="earthAgeResult">--</span> years</p>
     <p><strong>Number of moons:</strong> 1</p>
     <p><strong>Diameter:</strong> 12,742 km</p>
   </div>
@@ -154,9 +156,9 @@
       Mars is the fourth planet from the Sun and is often referred to as the "Red Planet" due to its reddish appearance. 
       It has a thin atmosphere and evidence of ancient riverbeds and lakes.
     </p>
+    <p><strong>Your age on Mars:</strong> <span id="marsAge">--</span> years</p>
     <p><strong>Orbital Period:</strong> 687 days</p>
     <p><strong>Distance from Sun:</strong> 227,900,000 km</p>
-    <p><strong>Your age on Mars:</strong> <span id="marsAge">--</span> years</p>
     <p><strong>Number of moons:</strong> 2</p>
     <p><strong>Diameter:</strong> 6,779 km</p>
   </div>
@@ -183,9 +185,9 @@
       Jupiter is the largest planet in our Solar System and is a gas giant. 
       It has a prominent Great Red Spot and many moons.
     </p>
+    <p><strong>Your age on Jupiter:</strong> <span id="jupiterAge">--</span> years</p>
     <p><strong>Orbital Period:</strong> 4,333 days</p>
     <p><strong>Distance from Sun:</strong> 778,500,000 km</p>
-    <p><strong>Your age on Jupiter:</strong> <span id="jupiterAge">--</span> years</p>
     <p><strong>Number of moons:</strong> 79</p>
     <p><strong>Diameter:</strong> 139,820 km</p>
   </div>
@@ -198,9 +200,9 @@
       Saturn is the sixth planet from the Sun and is known for its prominent ring system. 
       It is a gas giant with a composition similar to Jupiter.
     </p>
+    <p><strong>Your age on Saturn:</strong> <span id="saturnAge">--</span> years</p>
     <p><strong>Orbital Period:</strong> 10,759 days</p>
     <p><strong>Distance from Sun:</strong> 1,433,500,000 km</p>
-    <p><strong>Your age on Saturn:</strong> <span id="saturnAge">--</span> years</p>
     <p><strong>Number of moons:</strong> 83</p>
     <p><strong>Diameter:</strong> 116,460 km</p>
   </div>
@@ -233,9 +235,9 @@
       Uranus is the seventh planet from the Sun and is an ice giant. 
       It has a unique blue-green color due to methane in its atmosphere and rotates on its side.
     </p>
+    <p><strong>Your age on Uranus:</strong> <span id="uranusAge">--</span> years</p>
     <p><strong>Orbital Period:</strong> 30,687 days</p>
     <p><strong>Distance from Sun:</strong> 2,870,990,000 km</p>
-    <p><strong>Your age on Uranus:</strong> <span id="uranusAge">--</span> years</p>
     <p><strong>Number of moons:</strong> 27</p>
     <p><strong>Diameter:</strong> 50,724 km</p>
   </div>
@@ -248,9 +250,9 @@
       Neptune is the eighth and farthest planet from the Sun. 
       It is an ice giant with a deep blue color and has strong winds and storms.
     </p>
+    <p><strong>Your age on Neptune:</strong> <span id="neptuneAge">--</span> years</p>
     <p><strong>Orbital Period:</strong> 10,759 days</p>
     <p><strong>Distance from Sun:</strong> 1,433,500,000 km</p>
-    <p><strong>Your age on Neptune:</strong> <span id="neptuneAge">--</span> years</p>
     <p><strong>Number of moons:</strong> 14</p>
     <p><strong>Diameter:</strong> 49,244 km</p>
   </div>
@@ -282,9 +284,9 @@
       Pluto is a dwarf planet in the outer Solar System. 
       It has a highly elliptical and tilted orbit, and is composed primarily of ice and rock.
     </p>
+    <p><strong>Your age on Pluto:</strong> <span id="plutoAge">--</span> years</p>
     <p><strong>Orbital Period:</strong> 90,530 days</p>
     <p><strong>Distance from Sun:</strong> 5,906,400,000 km</p>
-    <p><strong>Your age on Pluto:</strong> <span id="plutoAge">--</span> years</p>
     <p><strong>Number of moons:</strong> 5</p>
     <p><strong>Diameter:</strong> 2,370 km</p>
   </div>
